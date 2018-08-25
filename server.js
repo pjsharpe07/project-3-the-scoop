@@ -33,13 +33,14 @@ const routes = {
     'POST': createComment
   },
   '/comments/:id': {
-
+    'PUT' : updateComment
+    'DELETE': deleteComment
   },
   '/comments/:id/upvote': {
-
+    'PUT' : upvoteComment
   },
   '/comments/:id/downvote': {
-
+    'PUT' : downvoteComment
   }
 };
 
